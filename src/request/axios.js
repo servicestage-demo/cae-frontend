@@ -1,7 +1,7 @@
 // 引入
 import axios from "axios"
 // 环境
-axios.defaults.baseURL ='http://localhost:9090/';   //  要请求的后台地址
+axios.defaults.baseURL = process.env.VUE_APP_BASE_URL;   //  要请求的后台地址
 // 请求超时
 axios.defaults.timeout =30000;
 //  post 请求头
