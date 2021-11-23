@@ -20,7 +20,7 @@
     <div class="title-btn">
     <el-button type="danger" :plain="true" class="btn" @click="ConsumeCpu()">Client Request Test</el-button>
     </div>
-    <div class="content">a
+    <div class="content">
       <img alt="" src="../assets/backgroundImg.png">
     </div>
   </div>
